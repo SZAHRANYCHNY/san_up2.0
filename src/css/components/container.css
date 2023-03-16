@@ -1,0 +1,23 @@
+.container {
+  max-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  
+  outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+    padding: 0px 24px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    min-width: 1280px;
+    padding: 0px 24px;
+  }
+}
